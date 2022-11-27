@@ -1,0 +1,66 @@
+body {
+    background-color: #ffddd1
+}
+
+h1 {
+    font-family: 'bebas neue', sans-serif;
+    letter-spacing: 0.25em;
+    text-align: center;
+}
+
+@media(min-width:300px){
+    
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar li {
+    display: inline;
+    list-style: none;
+    margin: 10px;
+    font-family: 'bebas neue';
+    letter-spacing: 3px;
+}
+
+.nav-bar {
+    margin: 40px auto;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color:#000;
+    margin: 10px;
+    display: inline;
+}
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+a:hover {
+    color: #fff;
+    background-color: #CCCCFF;
+    padding: 5px;
+}
+
+a:active {
+    color: #000;
+    background-color: #fff;
+}
+
+#colors-nav {
+    flex:1;
+}
+
+#fonts-nav {
+    flex:1;
+}
+
+#text-styles-nav {
+    flex: 1;
+}
+
+#about-me-nav {
+    flex:1;
+}

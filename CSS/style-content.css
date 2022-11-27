@@ -1,0 +1,130 @@
+@media(min-width:468px){
+
+.panels-1 {
+    display: flex;
+}
+
+.panels-2 {
+    display: flex;
+}
+}
+
+.colors {
+    border: 1px #000 solid;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.colors h2 {
+    font-family: 'Bebas Neue', sans serif;
+    letter-spacing: 5px;
+}
+
+.row-1, .row-2 {
+    border: 2.5px solid #bebcbc;
+}
+
+#salmon {
+    flex:1;
+    background-color:#FA8072;
+    text-align: center;
+    margin: 10px;
+    font-family: 'caveat';
+    letter-spacing: 4px;
+}
+
+#emerald {
+    flex: 1;
+    background-color: #40E0d0;
+    text-align: center;
+    margin: 10px;
+    font-family: 'caveat';
+    letter-spacing: 4px;
+}
+
+#purple {
+    flex: 1;
+    background-color: #CCCCFF;
+    text-align: center;
+    margin: 10px;
+    font-family: 'caveat';
+    letter-spacing: 4px;
+}
+
+#grass {
+    flex: 1;
+    background-color: #9FE2BF;
+    text-align: center;
+    margin: 10px;
+    font-family: 'caveat';
+    letter-spacing: 4px;
+}
+
+#cool-blue {
+    flex: 1;
+    background-color: #c0d6e4;
+    text-align: center;
+    margin: 10px;
+    font-family: 'caveat';
+    letter-spacing: 4px;
+}
+
+#light-yellow {
+    flex: 1;
+    background-color: #f5f5dc;
+    text-align: center;
+    margin: 10px;
+    font-family: 'caveat';
+    letter-spacing: 4px;
+}
+
+.fonts {
+    border: 1px #000 solid;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: aliceblue;
+}
+
+.fonts h2 {
+    font-family: 'Bebas Neue', sans serif;
+    letter-spacing: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#Monteserrat {
+    font-family: 'Montserrat', sans-serif;
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
+
+#playfair-display {
+    font-family: 'Playfair Display';
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
+
+#bebas-neue {
+    font-family: 'Bebas Neue';
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    letter-spacing: 2px;
+}
+
+#caveat {
+    font-family: 'Caveat';
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+}
+
